@@ -1,1 +1,18 @@
 /* This is a custom CSS */
+
+body {
+
+	border-radius: 0;
+}
+
+img {
+
+	widt: 200px;
+}
+
+ footer .navbar-default {
+
+ 	background-color: transparent;
+ 	border:0;
+ }
+
