@@ -1,1 +1,73 @@
 /* This is a custom CSS */
+
+body {
+
+	border-radius: 0;
+}
+
+img {
+
+	max-width: 200px;
+}
+
+/** Header Navigation **/
+
+header .navbar {
+
+	padding: 30 px 0;
+}
+
+header .navbar-default {
+
+	background-color: transparent;
+	border:none;
+}
+
+header .navbar-default .navbar-nav a {
+
+	color: white;
+	padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+
+	color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+
+	font-weight: 700;
+	color: #EEC856;
+	background: transparent;
+	border-bottom: 4px solid #EEC856; 
+	text-shadow: none;
+
+}
+
+header .navbar-default .navbar-nav a:hover {
+
+	color: #E15D5F;
+	background: transparent;
+	text-shadow: none;
+}
+
+/** Navbar Brand **/
+
+header .navbar-brand {
+
+	background: url(..img/brand.jpg);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+	height: auto;
+}
+
+/** Footer Navigation **/
+
+ footer .navbar-default {
+
+ 	background-color: transparent;
+ 	border:0;
+ }
+
+
+
