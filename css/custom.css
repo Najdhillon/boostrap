@@ -7,15 +7,26 @@ body {
 
 img {
 
-<<<<<<< HEAD
 	max-width: 200px;
 }
+
+#aboutme .col-sm-2 img {
+
+	padding-right: 10px;
+
+}
+
+#subjectrow .col-sm-6 img {
+
+	padding-right:10px;
+}
+
 
 /** Header Navigation **/
 
 header .navbar {
 
-	padding: 30 px 0;
+	padding: 30px 0;
 }
 
 header .navbar-default {
@@ -62,21 +73,18 @@ header .navbar-brand {
 	height: auto;
 }
 
+
+.page {
+
+	padding: 50px 0;
+}
 /** Footer Navigation **/
 
-=======
-	widt: 200px;
-}
-
->>>>>>> 401fe966e65d504a656b3ea779af9a8ce6c5feb5
  footer .navbar-default {
 
  	background-color: transparent;
  	border:0;
  }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 401fe966e65d504a656b3ea779af9a8ce6c5feb5
