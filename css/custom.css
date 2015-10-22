@@ -1,8 +1,22 @@
 /* This is a custom CSS */
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Arimo|Lobster|Quicksand:700,400);
+
+
 body {
 
 	border-radius: 0;
+	font-family: "Raleway", san-serif;
+	font-weight: 400;
+	font-size: 2em;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family:"Quicksand"
+	font-weight: 700;
+	
 }
 
 img {
