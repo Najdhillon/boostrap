@@ -1,6 +1,6 @@
 /* This is a custom CSS */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Arimo|Lobster|Quicksand:700,400);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700|Arimo|Lobster|Quicksand:700,400);
 
 
 body {
@@ -57,22 +57,32 @@ header .navbar-default .navbar-nav a {
 
 header .navbar-default .navbar-nav a:hover {
 
-	color: #EEC856;
+	color: #F79F24;
 }
 
-header .navbar-default .navbar-nav .active a:hover {
+
+header .navbar-default .navbar-nav .active a {
 
 	font-weight: 700;
-	color: #EEC856;
+	color:#F79F24;
 	background: transparent;
-	border-bottom: 4px solid #EEC856; 
+	border-bottom: 4px solid #F79F24; 
 	text-shadow: none;
 
 }
 
+header .navbar-default .navbar-nav .active a:hover {
+
+	font-weight: 500;
+	color: #E20049;
+	background: transparent;
+	text-shadow: none;
+}
+
 header .navbar-default .navbar-nav a:hover {
 
-	color: #E15D5F;
+	font-weight: 500;
+	color: #E20049;
 	background: transparent;
 	text-shadow: none;
 }
@@ -81,10 +91,12 @@ header .navbar-default .navbar-nav a:hover {
 
 header .navbar-brand {
 
-	background: url(..img/brand.jpg);
+	background: url(..img/brand.png);
 	background-repeat: no-repeat;
 	background-position: 15px 0;
 	height: auto;
+	font-family: "Lobster";
+	color: white;
 }
 
 
