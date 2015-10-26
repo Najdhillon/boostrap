@@ -10,6 +10,7 @@ body {
 	font-weight: 400;
 	font-size: 2em;
 	position: relative;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,13 +91,16 @@ header .navbar-default .navbar-nav a:hover {
 /** Navbar Brand **/
 
 header .navbar-brand {
+  color: white;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-left: 105px;
+}
 
-	background: url(..img/brand.png);
-	background-repeat: no-repeat;
-	background-position: 15px 0;
-	height: auto;
+header .navbar-brand h1 {
+	color:white;
 	font-family: "Lobster";
-	color: white;
 }
 
 
@@ -104,6 +108,28 @@ header .navbar-brand {
 
 	padding: 50px 0;
 }
+
+/** Navbar Toggle **/
+
+header .navbar-toggle {
+
+	background-color: #62013C;
+
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+
+	background-color: white;
+}
+
+@media only screen 
+
+and (max-width: 768px) {
+	header .navbar-collapse.in {
+		background-color: rgba(0,0,0,0.5);
+	}
+}
+
 /** Footer Navigation **/
 
  footer .navbar-default {
