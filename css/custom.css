@@ -130,12 +130,31 @@ and (max-width: 768px) {
 	}
 }
 
+/** Page **/
+
+#aboutme {
+
+	text-align: center;
+	background-color: #62013C;
+	background-image: linear-gradient(to bottom, #AD2959,#62013C);
+	border-top: 20px solid rgba(238, 200, 86 .5);
+	color:white;
+}
+
+#aboutme h1 {
+
+	font-family:"Quicksand";
+	font-weight: 700;
+	letter-spacing: .2em;
+
+}
+
 /** Footer Navigation **/
 
  footer .navbar-default {
 
  	background-color: transparent;
- 	border:0;
+ 	
  }
 
 
